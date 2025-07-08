@@ -9,12 +9,16 @@ import { createRoot } from "react-dom/client";
 // import "./chapter-14/index.css"
 
 // Для 15 главы
-import "./chapter-15/index.css"
-import TodoList from "./chapter-15/TodoList";
+// import "./chapter-15/index.css"
+// import TodoList from "./chapter-15/TodoList";
+
+// Для 16 главы
+import "./chapter-16/index.css"
+import MenuContainer from "./chapter-16/MenuContainer"
 
 const root = createRoot(document.getElementById("root"));
 root.render(
     <div>
-        <TodoList />
+        <MenuContainer />
     </div>
 );
